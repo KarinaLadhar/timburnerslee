@@ -1,0 +1,76 @@
+.menu{
+    list-style:none;
+    position:absolute;
+    top:10px;
+    right:30px;
+    cursor:pointer;
+    z-index:10;
+    font-size: 20px;
+}
+.links{
+    float: left;
+    color: fuchsia;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.profile{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 15%;
+    }
+
+#welcome{
+    top: 0;
+    bottom:0;
+    right: 0;
+    left:0;
+    opacity: 0.83;
+    width: 100%;
+    background: linear-gradient(to right,cyan,cyan);
+    display:table ;
+    position: absolute;
+    height: 800px;
+    color:green;
+    z-index:9; width: 100%;
+
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+
+
+.parallax-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+
+.article:hover{
+    color: fuchsia;
+}
